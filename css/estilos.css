@@ -1,0 +1,1232 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-image: url(../img/header.jpg);
+  padding-top: 1.5em;
+  padding-bottom: 0.75em;
+}
+
+.black {
+  background-color: black;
+}
+
+footer {
+  background-image: url(../img/header.jpg);
+  text-align: center;
+  margin-top: 0em;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.logo {
+  margin-top: -13px;
+  margin-bottom: -13px;
+}
+
+.titulo {
+  background: rgba(176, 175, 123, 0.8);
+}
+
+h1 {
+  margin-top: 2.4em;
+  font-family: "Poppins";
+}
+
+h2 {
+  width: 100%;
+  font-family: "Poppins";
+}
+
+.uno {
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.dos {
+  color: black;
+  text-align: center;
+  border-bottom: 4px double black;
+  border-top: 4px double black;
+  margin-top: 0.5em;
+}
+
+.tres {
+  background-color: rgba(176, 175, 123, 0.8);
+  border-radius: 0.3em;
+  color: black;
+  border: 0.1em solid black;
+  padding: 0.1em;
+  font-size: 1.2em;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.caratulas {
+  margin: 1em;
+  padding: 0.3em;
+  border: 2px solid black;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.carrusel {
+  grid-area: carrusel;
+}
+
+.peliculasI, .seriesI {
+  grid-area: peliculasI;
+}
+
+.peliculasP {
+  grid-area: peliculasP;
+}
+
+.seriesI {
+  grid-area: seriesI;
+}
+
+.seriesS {
+  grid-area: seriesS;
+}
+
+.encabezado {
+  grid-area: encabezado;
+}
+
+.caratulaP1I {
+  grid-area: cp1I;
+}
+
+.caratulaP2I {
+  grid-area: cp2I;
+}
+
+.caratulaP3I {
+  grid-area: cp3I;
+}
+
+.caratulaP4I {
+  grid-area: cp4I;
+}
+
+.parrafoP1I {
+  grid-area: pp1I;
+}
+
+.parrafoP2I {
+  grid-area: pp2I;
+}
+
+.parrafoP3I {
+  grid-area: pp3I;
+}
+
+.parrafoP4I {
+  grid-area: pp4I;
+}
+
+.caratulaS1I {
+  grid-area: cs1I;
+}
+
+.caratulaS2I {
+  grid-area: cs2I;
+}
+
+.caratulaS3I {
+  grid-area: cs3I;
+}
+
+.caratulaS4I {
+  grid-area: cs4I;
+}
+
+.parrafoS1I {
+  grid-area: ps1I;
+}
+
+.parrafoS2I {
+  grid-area: ps2I;
+}
+
+.parrafoS3I {
+  grid-area: ps3I;
+}
+
+.parrafoS4I {
+  grid-area: ps4I;
+}
+
+.caratulaP1P {
+  grid-area: cp1P;
+}
+
+.caratulaP2P {
+  grid-area: cp2P;
+}
+
+.caratulaP3P {
+  grid-area: cp3P;
+}
+
+.caratulaP4P {
+  grid-area: cp4P;
+}
+
+.caratulaP5P {
+  grid-area: cp5P;
+}
+
+.caratulaP6P {
+  grid-area: cp6P;
+}
+
+.caratulaP7P {
+  grid-area: cp7P;
+}
+
+.caratulaP8P {
+  grid-area: cp8P;
+}
+
+.caratulaP9P {
+  grid-area: cp9P;
+}
+
+.caratulaP10P {
+  grid-area: cp10P;
+}
+
+.caratulaP11P {
+  grid-area: cp11P;
+}
+
+.caratulaP12P {
+  grid-area: cp12P;
+}
+
+.caratulaS1S {
+  grid-area: cs1S;
+}
+
+.caratulaS2S {
+  grid-area: cs2S;
+}
+
+.caratulaS3S {
+  grid-area: cs3S;
+}
+
+.caratulaS4S {
+  grid-area: cs4S;
+}
+
+.caratulaS5S {
+  grid-area: cs5S;
+}
+
+.caratulaS6S {
+  grid-area: cs6S;
+}
+
+.caratulaS7S {
+  grid-area: cs7S;
+}
+
+.caratulaS8S {
+  grid-area: cs8S;
+}
+
+.caratulaS9S {
+  grid-area: cs9S;
+}
+
+.caratulaS10S {
+  grid-area: cs10S;
+}
+
+.caratulaS11S {
+  grid-area: cs11S;
+}
+
+.caratulaS12S {
+  grid-area: cs12S;
+}
+
+.caratulaRandom {
+  grid-area: cr;
+}
+
+.parrafoRandom {
+  grid-area: pr;
+}
+
+.descRandom {
+  grid-area: dr;
+}
+
+.play {
+  grid-area: play;
+}
+
+.videoRandom {
+  grid-area: vr;
+}
+
+h1 {
+  grid-area: h1;
+}
+
+h2 {
+  grid-area: h2;
+}
+
+footer {
+  grid-area: foother;
+}
+
+/*mobile first*/
+.peliculasI, .seriesI {
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin: 1em;
+  border: 6px solid black;
+}
+
+.caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I, .caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I {
+  display: flex;
+  justify-content: center;
+}
+
+.caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I, .caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafoP1I, .parrafoP2I, .parrafoP3I, .parrafoP4I, .parrafoS1I, .parrafoS2I, .parrafoS3I, .parrafoS4I {
+  border: 2px solid black;
+  display: none;
+}
+
+/*fomato*/
+.envolturaI {
+  margin-bottom: 1.5em;
+  display: grid;
+  grid-template-areas: "header" "nav" "h1" "carrusel" "peliculasI" "seriesI" "foother";
+}
+
+.peliculasI, .seriesI {
+  display: grid;
+  grid-template-areas: "h2" "cp1I" "cp2I" "cp3I" "cp4I";
+}
+
+.seriesI {
+  display: grid;
+  grid-template-areas: "h2" "cs1I" "cs2I" "cs3I" "cs4I";
+}
+
+@media (min-width: 500px) {
+  .peliculasI, .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cp1I cp2I" "cp3I cp4I";
+  }
+  .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cs1I cs2I" "cs3I cs4I";
+  }
+  .caratulaP1I, .caratulaP3I, .caratulaS1I, .caratulaS3I {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+  }
+  .caratulaP2I, .caratulaP4I, .caratulaS2I, .caratulaS4I {
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+  }
+}
+@media (min-width: 765px) {
+  .peliculasI, .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cp1I pp1I" "cp2I pp2I" "cp3I pp3I" "cp4I pp4I";
+  }
+  .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "ps1I cs1I" "ps2I cs2I" "ps3I cs3I" "ps4I cs4I";
+  }
+  .caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I {
+    display: flex;
+    justify-content: left;
+    margin-left: 5em;
+  }
+  .caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I {
+    display: flex;
+    justify-content: right;
+    margin-right: 5em;
+  }
+  .parrafoP1I, .parrafoP2I, .parrafoP3I, .parrafoP4I {
+    margin: 2em 5em 2em 2em;
+    border-radius: 35px;
+    background: rgba(176, 175, 123, 0.8);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+  }
+  .parrafoS1I, .parrafoS2I, .parrafoS3I, .parrafoS4I {
+    margin: 2em 2em 2em 5em;
+    border-radius: 35px;
+    background: rgba(176, 175, 123, 0.8);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  /* index */
+  .peliculasI, .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cp1I pp1I" "pp2I cp2I" "cp3I pp3I" "pp4I cp4I";
+  }
+  .seriesI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cs1I ps1I" "ps2I cs2I" "cs3I ps3I" "ps4I cs4I";
+  }
+  .caratulaP1I, .caratulaP3I, .caratulaS1I, .caratulaS3I {
+    display: flex;
+    justify-content: left;
+    margin-left: 5em;
+  }
+  .caratulaP2I, .caratulaP4I, .caratulaS2I, .caratulaS4I {
+    display: flex;
+    justify-content: right;
+    margin-right: 5em;
+  }
+  .parrafoP1I, .parrafoP3I, .parrafoS1I, .parrafoS3I {
+    margin: 2em 5em 2em 2em;
+    border-radius: 35px;
+    background: rgba(176, 175, 123, 0.8);
+    display: flex;
+    justify-content: right;
+  }
+  .parrafoP2I, .parrafoP4I, .parrafoS2I, .parrafoS4I {
+    margin: 2em 2em 2em 5em;
+    border-radius: 35px;
+    background: rgba(176, 175, 123, 0.8);
+    display: flex;
+    justify-content: left;
+  }
+}
+/*mobile first*/
+.peliculasP {
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin: 1em;
+  border: 6px solid black;
+}
+
+.caratulaP1P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP1P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP1P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP2P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP2P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP2P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP3P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP3P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP3P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP4P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP4P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP4P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP5P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP5P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP5P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP6P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP6P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP6P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP7P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP7P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP7P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP8P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP8P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP8P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP9P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP9P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP9P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP10P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP10P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP10P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP11P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP11P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP11P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP12P {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaP12P .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaP12P .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaP1P:hover, .caratulaP2P:hover, .caratulaP3P:hover, .caratulaP4P:hover, .caratulaP5P:hover, .caratulaP6P:hover, .caratulaP7P:hover, .caratulaP8P:hover, .caratulaP9P:hover, .caratulaP10P:hover, .caratulaP11P:hover, .caratulaP12P:hover {
+  transition: all 0.9s ease-out;
+  transform: scale(1.5);
+}
+.caratulaP1P:hover .capa, .caratulaP2P:hover .capa, .caratulaP3P:hover .capa, .caratulaP4P:hover .capa, .caratulaP5P:hover .capa, .caratulaP6P:hover .capa, .caratulaP7P:hover .capa, .caratulaP8P:hover .capa, .caratulaP9P:hover .capa, .caratulaP10P:hover .capa, .caratulaP11P:hover .capa, .caratulaP12P:hover .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.caratulaP1P:hover .capa h4, .caratulaP2P:hover .capa h4, .caratulaP3P:hover .capa h4, .caratulaP4P:hover .capa h4, .caratulaP5P:hover .capa h4, .caratulaP6P:hover .capa h4, .caratulaP7P:hover .capa h4, .caratulaP8P:hover .capa h4, .caratulaP9P:hover .capa h4, .caratulaP10P:hover .capa h4, .caratulaP11P:hover .capa h4, .caratulaP12P:hover .capa h4 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*fomato*/
+.envolturaP {
+  margin-bottom: 1.5em;
+  display: grid;
+  grid-template-areas: "header" "nav" "h1" "carrusel" "peliculasP" "foother";
+}
+
+.peliculasP {
+  display: flex;
+  justify-items: center;
+  display: grid;
+  grid-template-areas: "h2" "cp1P" "cp2P" "cp3P" "cp4P" "cp5P" "cp6P" "cp7P" "cp8P" "cp9P" "cp10P" "cp11P" "cp12P";
+}
+
+@media (min-width: 500px) {
+  .envolturaP {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "peliculasP" "foother";
+  }
+  .peliculasP {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cp1P cp2P" "cp3P cp4P" "cp5P cp6P" "cp7P cp8P" "cp9P cp10P" "cp11P cp12P";
+  }
+}
+@media (min-width: 765px) {
+  .envolturaP {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "peliculasP" "foother";
+  }
+  .peliculasP {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2 h2" "cp1P cp2P cp3P" "cp4P cp5P cp6P" "cp7P cp8P cp9P" "cp10P cp11P cp12P";
+  }
+}
+@media (min-width: 1024px) {
+  /* peliculas */
+  .envolturaP {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "peliculasP" "foother";
+  }
+  .peliculasP {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2 h2 h2" "cp1P cp2P cp3P cp4P" "cp5P cp6P cp7P cp8P" "cp9P cp10P cp11P cp12P";
+  }
+}
+/*mobile first*/
+.seriesS {
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin: 1em;
+  border: 6px solid black;
+}
+
+.caratulaS1S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS1S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS1S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS2S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS2S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS2S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS3S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS3S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS3S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS4S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS4S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS4S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS5S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS5S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS5S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS6S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS6S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS6S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS7S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS7S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS7S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS8S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS8S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS8S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS9S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS9S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS9S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS10S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS10S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS10S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS11S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS11S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS11S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS12S {
+  overflow: hidden;
+  cursor: pointer;
+}
+.caratulaS12S .capa {
+  border: 2px solid black;
+  position: absolute;
+  transition: all 0.9s ease-out;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.caratulaS12S .capa p {
+  font-size: 0.8em;
+}
+
+.caratulaS1S:hover, .caratulaS2S:hover, .caratulaS3S:hover, .caratulaS4S:hover, .caratulaS5S:hover, .caratulaS6S:hover, .caratulaS7S:hover, .caratulaS8S:hover, .caratulaS9S:hover, .caratulaS10S:hover, .caratulaS11S:hover, .caratulaS12S:hover {
+  transition: all 0.9s ease-out;
+  transform: scale(1.5);
+}
+.caratulaS1S:hover .capa, .caratulaS2S:hover .capa, .caratulaS3S:hover .capa, .caratulaS4S:hover .capa, .caratulaS5S:hover .capa, .caratulaS6S:hover .capa, .caratulaS7S:hover .capa, .caratulaS8S:hover .capa, .caratulaS9S:hover .capa, .caratulaS10S:hover .capa, .caratulaS11S:hover .capa, .caratulaS12S:hover .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.caratulaS1S:hover .capa h4, .caratulaS2S:hover .capa h4, .caratulaS3S:hover .capa h4, .caratulaS4S:hover .capa h4, .caratulaS5S:hover .capa h4, .caratulaS6S:hover .capa h4, .caratulaS7S:hover .capa h4, .caratulaS8S:hover .capa h4, .caratulaS9S:hover .capa h4, .caratulaS10S:hover .capa h4, .caratulaS11S:hover .capa h4, .caratulaS12S:hover .capa h4 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*fomato*/
+.envolturaS {
+  margin-bottom: 1.5em;
+  display: grid;
+  grid-template-areas: "header" "nav" "h1" "carrusel" "seriesS" "foother";
+}
+
+.seriesS {
+  display: flex;
+  justify-items: center;
+  display: grid;
+  grid-template-areas: "h2" "cs1S" "cs2S" "cs3S" "cs4S" "cs5S" "cs6S" "cs7S" "cs8S" "cs9S" "cs10S" "cs11S" "cs12S";
+}
+
+@media (min-width: 500px) {
+  .envolturaS {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "seriesS" "foother";
+  }
+  .seriesS {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h2 h2" "cs1S cs2S" "cs3S cs4S" "cs5S cs6S" "cs7S cs8S" "cs9S cs10S" "cs11S cs12S";
+  }
+}
+@media (min-width: 765px) {
+  .envolturaS {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "seriesS" "foother";
+  }
+  .seriesS {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2 h2" "cs1S cs2S cs3S" "cs4S cs5S cs6S" "cs7S cs8S cs9S" "cs10S cs11S cs12S";
+  }
+}
+@media (min-width: 1024px) {
+  .envolturaS {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: "header" "nav" "h1" "carrusel" "seriesS" "foother";
+  }
+  .seriesS {
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "h2 h2 h2 h2" "cs1S cs2S cs3S cs4S" "cs5S cs6S cs7S cs8S" "cs9S cs10S cs11S cs12S";
+  }
+}
+.encabezado h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  color: black;
+}
+.encabezado .caratulaRandom {
+  display: flex;
+  justify-content: left;
+  margin-left: 9em;
+  margin-top: 1.5em;
+}
+.encabezado .parrafoRandom {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  margin-right: 2em;
+  margin-left: 1em;
+  border: solid black;
+  border-radius: 2.5em;
+  background: rgba(176, 175, 123, 0.8);
+}
+.encabezado .parrafoRandom p {
+  font-size: 1.4em;
+  color: black;
+}
+.encabezado .descRandom {
+  display: flex;
+  margin-top: 1em;
+  margin-right: 1em;
+  border: solid black;
+  border-radius: 2.5em;
+  background: rgba(176, 175, 123, 0.8);
+  justify-content: center;
+}
+.encabezado .descRandom p {
+  margin-top: 1em;
+  font-size: 1em;
+  color: black;
+}
+
+.encabezado:before {
+  content: "";
+  width: 100%;
+  height: 465px;
+  position: absolute;
+  background-image: url("../img/fondoRandom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.play {
+  margin: 1.6em 0em 1em 0em;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+}
+.play h2 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.play .videoRandom {
+  overflow: hidden;
+  padding-bottom: 700px;
+  position: relative;
+  height: 0;
+}
+.play .videoRandom iframe {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*fomato*/
+.envolturaPlay {
+  display: grid;
+  grid-template-areas: "header" "nav" "encabezado" "play" "foother";
+}
+
+.encabezado {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "cr h1 h1" "cr pr pr" "cr dr dr";
+}
+
+.play {
+  display: grid;
+  grid-template-areas: "h2" "vr";
+}
+
+.registro {
+  width: 24em;
+  background: rgba(176, 175, 123, 0.8);
+  padding: 1em;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  border-radius: 0.5em;
+  border: solid black;
+  font-family: "Poppins";
+  box-shadow: 0.5em 0.8em 2.3em black;
+}
+.registro h1 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.registro .formato {
+  width: 100%;
+  background: rgba(176, 175, 123, 0.8);
+  padding: 0.6em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  border: solid black;
+  font-size: 1em;
+}
+.registro p {
+  height: 3em;
+  text-align: center;
+  font-size: 1em;
+  line-height: 3em;
+}
+.registro p a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.registro .boton {
+  width: 100%;
+  background: rgb(123, 123, 85);
+  border: none;
+  padding: 0.6em;
+  color: black;
+  font-size: 1em;
+  margin-bottom: 0.2em;
+}/*# sourceMappingURL=estilos.css.map */

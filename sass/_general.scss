@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+header{
+    background-image: url(../img/header.jpg);
+    padding-top: 1.5em;
+    padding-bottom: 0.75em;
+}
+
+
+.black{
+    background-color:black;
+}
+
+footer{
+    background-image: url(../img/header.jpg);
+    text-align: center;
+    margin-top: 0em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.logo{
+    margin-top: -13px;
+    margin-bottom: -13px;
+}
+
+.titulo{
+    background: $fonpa;
+}
+
+h1{
+    margin-top: 2.40em;
+    font-family: 'Poppins';
+}
+
+h2{
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.uno{
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.dos{
+    color: black;
+    text-align: center;
+    border-bottom: 4px double black;
+    border-top: 4px double black;
+    margin-top: 0.5em;
+}
+
+.tres{
+    background-color: $fonpa;
+    border-radius: 0.3em;
+    color: black;
+    border: 0.1em solid black;
+    padding: 0.1em;
+    font-size: 1.2em;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.caratulas{
+    margin: 1em;
+    padding: 0.30em; 
+    border: 2px solid black;
+}

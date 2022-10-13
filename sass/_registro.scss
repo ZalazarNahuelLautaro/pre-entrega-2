@@ -1,0 +1,46 @@
+.registro{
+    width: 24em;
+    background: $fonpa;
+    padding: 1em;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    border-radius: 0.5em;
+    border: solid black;
+    font-family: 'Poppins';
+    box-shadow: 0.5em 0.8em 2.3em black;
+        h1{
+            font-size: 1.5em;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        .formato{
+            width: 100%;
+            background: $fonpa;
+            padding: 0.6em;
+            border-radius: 0.5em;
+            margin-bottom: 1em;
+            border: solid black;
+            font-size: 1em;
+        }
+        p{
+            height: 3em;
+            text-align: center;
+            font-size: 1em;
+            line-height: 3em;
+                a:hover{
+                    color: white;
+                    text-decoration: underline;
+                }
+        }
+        .boton{
+            width: 100%;
+            background: rgb(123, 123, 85);
+            border: none;
+            padding: 0.6em;
+            color: black;
+            font-size: 1em;
+            margin-bottom: 0.2em;
+        }
+}

@@ -1,0 +1,206 @@
+/*mobile first*/
+
+.peliculasI{
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin: 1em;
+    border: 6px solid black;
+}
+
+.seriesI{
+    @extend .peliculasI;
+}
+
+.caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I, .caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I{
+    display: flex;
+    justify-content: center;
+}
+
+.caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I, .caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafoP1I, .parrafoP2I, .parrafoP3I, .parrafoP4I, .parrafoS1I, .parrafoS2I, .parrafoS3I, .parrafoS4I{
+    border: 2px solid black;
+    display: none;
+}
+
+/*fomato*/
+
+.envolturaI{
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "h1"
+    "carrusel"
+    "peliculasI"
+    "seriesI"
+    "foother"
+}
+
+.peliculasI{
+    display: grid;
+    grid-template-areas:
+    "h2"
+    "cp1I"
+    "cp2I"
+    "cp3I"
+    "cp4I"
+}
+
+.seriesI{
+    display: grid;
+    grid-template-areas:
+    "h2"
+    "cs1I"
+    "cs2I"
+    "cs3I"
+    "cs4I"
+}
+
+@media (min-width:500px){
+
+.peliculasI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "cp1I cp2I"
+    "cp3I cp4I"
+}
+
+.seriesI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "cs1I cs2I"
+    "cs3I cs4I"
+}
+
+.caratulaP1I, .caratulaP3I, .caratulaS1I, .caratulaS3I{
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+}
+
+.caratulaP2I, .caratulaP4I, .caratulaS2I, .caratulaS4I{
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+}
+}
+
+@media (min-width:765px){
+
+.peliculasI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "cp1I pp1I"
+    "cp2I pp2I"
+    "cp3I pp3I"
+    "cp4I pp4I"
+}
+
+.seriesI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "ps1I cs1I"
+    "ps2I cs2I"
+    "ps3I cs3I"
+    "ps4I cs4I"
+}
+
+.caratulaP1I, .caratulaP2I, .caratulaP3I, .caratulaP4I{
+    display: flex;
+    justify-content: left;
+    margin-left: 5em;
+}
+
+.caratulaS1I, .caratulaS2I, .caratulaS3I, .caratulaS4I{
+    display: flex;
+    justify-content: right;
+    margin-right: 5em;
+} 
+
+.parrafoP1I, .parrafoP2I, .parrafoP3I, .parrafoP4I{
+    margin: 2em 5em 2em 2em;
+    border-radius: 35px;
+    background: $fonpa;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafoS1I, .parrafoS2I, .parrafoS3I, .parrafoS4I{
+    margin: 2em 2em 2em 5em;
+    border-radius: 35px;
+    background: $fonpa;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;    
+}
+}
+
+@media(min-width:1024px){
+
+/* index */
+.peliculasI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "cp1I pp1I"
+    "pp2I cp2I"
+    "cp3I pp3I"
+    "pp4I cp4I"
+}
+
+.seriesI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "h2 h2"
+    "cs1I ps1I"
+    "ps2I cs2I"
+    "cs3I ps3I"
+    "ps4I cs4I"
+}
+
+.caratulaP1I, .caratulaP3I, .caratulaS1I, .caratulaS3I{
+    display: flex;
+    justify-content: left;
+    margin-left: 5em;
+}
+
+.caratulaP2I, .caratulaP4I, .caratulaS2I, .caratulaS4I{
+    display: flex;
+    justify-content: right;
+    margin-right: 5em;
+} 
+
+.parrafoP1I, .parrafoP3I, .parrafoS1I, .parrafoS3I{
+    margin: 2em 5em 2em 2em;
+    border-radius: 35px;
+    background: $fonpa;
+    display: flex;
+    justify-content: right;
+}
+
+.parrafoP2I, .parrafoP4I, .parrafoS2I, .parrafoS4I{
+    margin: 2em 2em 2em 5em;
+    border-radius: 35px;
+    background: $fonpa;
+    display: flex;
+    justify-content: left;
+}
+}
